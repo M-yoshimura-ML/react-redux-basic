@@ -7,7 +7,6 @@ import Header from './components/Header';
 import UserProfile from './components/UserProfile';
 
 
-
 function App() {
   const isAuthenticated = useSelector(state => state.auth.isAuthenticated);
   return (
